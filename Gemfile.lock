@@ -23,8 +23,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.0.7)
+  bundler
   rake (~> 0.8.7)
   rspec
-  ya2yaml (~> 0.30)
   yaml2csv!
+
+BUNDLED WITH
+   1.11.2

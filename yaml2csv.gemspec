@@ -17,11 +17,11 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = '>= 1.3.5'
 
   {
-    'bundler'         => '~> 1.0.7',
     'rake'            => '~> 0.8.7',
   }.each do |lib, version|
     s.add_development_dependency lib, version
   end
 
+  s.add_development_dependency 'bundler'
   s.add_runtime_dependency 'ya2yaml', '~> 0.30'
 end
